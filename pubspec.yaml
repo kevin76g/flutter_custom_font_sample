@@ -74,6 +74,12 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
+    - family: KosugiMaru
+      fonts:
+        - asset: fonts/KosugiMaru-Regular.ttf
+    - family: ZenMaruGothic
+      fonts:
+        - asset: fonts/ZenMaruGothic-Regular.ttf
     - family: DotGothic16
       fonts:
         - asset: fonts/DotGothic16-Regular.ttf

@@ -6,13 +6,17 @@ void main() {
 
 const fontSize = 42.0;
 
-const fontDotGothic16 = 'DotGothic16';
 const fontNotoSansJP = 'NotoSansJP';
+const fontKosugiMaru = 'KosugiMaru';
+const fontZenMaruGothic = 'ZenMaruGothic';
+const fontDotGothic16 = 'DotGothic16';
 const fontKiwiMaru = 'KiwiMaru';
 const fontDelaGothicOne = 'DelaGothicOne';
 
 const fontList = [
   fontNotoSansJP,
+  fontKosugiMaru,
+  fontZenMaruGothic,
   fontDotGothic16,
   fontKiwiMaru,
   fontDelaGothicOne
@@ -75,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 elevation: 16,
                 style: const TextStyle(
                   color: Colors.blue,
-                  fontSize: fontSize,
+                  fontSize: 36.0,
                 ),
                 underline: Container(
                   height: 2,
